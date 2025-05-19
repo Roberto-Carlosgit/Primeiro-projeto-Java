@@ -53,10 +53,11 @@ input {
     font-size: 16px;
     color: rgba(85, 85, 85, 1);
     cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
 
 }
 
-button{
+button {
     width: 100%;
     height: 48px;
     border-radius: 5px;
@@ -88,10 +89,15 @@ section {
 
 }
 
-.arrow-img{
+.arrow-img {
     margin: 20px 0;
 
 }
+
+.currency-img , .arrow-imgbr {
+box-shadow: 0px 4px 4px 0px #000000 25%;
+}
+
 
 .currency-box {
     display: flex;
@@ -100,15 +106,17 @@ section {
     gap: 4px;
 }
 
-.currency{
-color: #777777;
-font-size: 14px;
+.currency {
+    color: #777777;
+    font-size: 14px;
 
 }
-.currency-value{
-color: #555555;
-font-weight: 700;
-font-size: 16px;
-line-height: 18px;
+
+.currency-value,
+.currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
 
 }
